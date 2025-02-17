@@ -1,0 +1,51 @@
+
+REM ----------------------------------~-~-~-Ω <(-.-)> Ω-~-~-~-------------------------------
+REM ----------------------------------------------------------------------------------------
+REM Windows 10 & 11 KMS-Client-Keys
+REM Script Runs Windows 10 & 11 KMS key in CMD to unlock windows - Learn more in Links Below
+REM https://www.lifewire.com/slmgr-command-4684499
+REM https://learn.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys
+REM ----------------------------------------------------------------------------------------
+REM if you do not have a KMS serve locally your PC may reach out to a random KMS server 
+REM --------------------------------- use at your own risk ---------------------------------
+REM ----------------------------------------------------------------------------------------
+REM ----------------------------------~-~-~-Ω <(-.-)> Ω-~-~-~-------------------------------
+
+DELAY 1000
+GUI r
+DELAY 500
+STRING cmd
+CTRL-SHIFT
+ENTER
+DELAY 1500
+LEFTARROW
+ENTER
+DELAY 1000
+
+REM ---------~-~-~-Ω <(-.-)> Ω-~-~-~----------
+REM ------ Select your version of windows ----
+
+REM ------------------------------------------
+REM ------------ Windows 10/11 Home ----------
+REM STRING Slmgr /ipk TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
+REM ------------------------------------------
+
+REM ------------------------------------------
+REM ------------ Windows 10/11 Pro -----------
+REM STRING Slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
+REM ------------------------------------------
+
+REM ------------------------------------------
+REM ---------- Windows 10/11 Enterprise ------
+REM STRING Slmgr /ipk NPPR9-FWDCX-D2C8J-H872K-2YT43
+REM ------------------------------------------
+
+REM ------------------------------------------
+REM ---------- Windows 10/11 Education -------
+REM STRING Slmgr /ipk NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
+REM ------------------------------------------
+
+ENTER
+DELAY 8000
+STRING exit
+ENTER
